@@ -91,17 +91,17 @@
 				<key>right</key>
 				<string>दायें</string>
 				<key>sharp left</key>
-				<string>sharp left</string>
+				<string>पूर्ण बाएं </string><!--sharp left-->
 				<key>sharp right</key>
-				<string>sharp right</string>
+				<string>पूर्ण दायें</string><!--sharp right-->
 				<key>slight left</key>
-				<string>slight left</string>
+				<string>थोड़ा बाएं</string><!--slight left-->
 				<key>slight right</key>
-				<string>slight right</string>
+				<string>slight right</string>थोड़ा दायें<!---->
 				<key>straight</key>
-				<string>straight</string>
+				<string>सीधा</string>
 				<key>uturn</key>
-				<string>U-turn</string>
+				<string>यू टर्न</string>
 			</dict>
 			<key>ordinalize</key>
 			<dict>
@@ -132,71 +132,71 @@
 			<key>default</key>
 			<dict>
 				<key>default</key>
-				<string>Turn {modifier}</string>
+				<string>{modifier} मुड़ें </string>
 				<key>destination</key>
-				<string>Turn {modifier} towards {destination}</string>
+				<string>{destination} की ओर {modifier} मुड़ें</string><!--Turn {modifier} towards {destination}-->
 				<key>exit</key>
-				<string>Turn {modifier} onto {way_name}</string>
+				<string>{way_name} पर {modifier} मुड़ें</string><!--Turn {modifier} onto {way_name}-->
 				<key>name</key>
-				<string>Turn {modifier} to stay on {way_name}</string>
+				<string>{way_name} पर बने रहने के लिए {modifier} मुड़ें</string><!--Turn {modifier} to stay on {way_name}-->
 			</dict>
 			<key>sharp left</key>
 			<dict>
 				<key>default</key>
-				<string>Make a sharp left</string>
+				<string>पूरी तरह से बाईं ओर ले जाएं</string><!--Make a sharp left-->
 				<key>destination</key>
-				<string>Make a sharp left towards {destination}</string>
+				<string>{destination} की ओर ठीक बाईं ओर मुड़ें</string><!--Make a sharp left towards {destination}-->
 				<key>name</key>
-				<string>Make a sharp left to stay on {way_name}</string>
+				<string>{way name} पर बने रहने के लिए ठीक बाईं ओर मुड़ें</string><!--Make a sharp left to stay on {way_name}-->
 			</dict>
 			<key>sharp right</key>
 			<dict>
 				<key>default</key>
-				<string>Make a sharp right</string>
+				<string>पूरी तरह से दाईं ओर ले जाएं </string><!--Make a sharp right-->
 				<key>destination</key>
-				<string>Make a sharp right towards {destination}</string>
+				<string> {destination} की ओर ठीक दाईं ओर मुड़ें  {destination}</string><!--Make a sharp right towards-->
 				<key>name</key>
-				<string>Make a sharp right to stay on {way_name}</string>
+				<string>{way name} पर बने रहने के लिए ठीक दाईं ओर मुड़ें </string><!--Make a sharp right to stay on {way_name}-->
 			</dict>
 			<key>slight left</key>
 			<dict>
 				<key>default</key>
-				<string>Make a slight left</string>
-				<key>destination</key>
-				<string>Make a slight left towards {destination}</string>
+				<string>थोड़ा बाईं ओर ले जाएं</string><!--Make a slight left-->
+				 <key>destination</key>
+				<string>{destination} की ओर थोड़ा बाईं ओर मुड़ें</string><!--Make a slight left towards {destination}-->
 				<key>name</key>
-				<string>Make a slight left to stay on {way_name}</string>
-			</dict>
+				<string>{way name} पर बने रहने के लिए थोड़ा बाईं ओर मुड़ें</string><!--Make a slight left to stay on {way_name}-->
+				</dict>
 			<key>slight right</key>
 			<dict>
 				<key>default</key>
-				<string>Make a slight right</string>
+				<string>थोड़ा से दाईं ओर ले जाएं </string><!--Make a slight right-->
 				<key>destination</key>
-				<string>Make a slight right towards {destination}</string>
+				<string> {destination} की ओर थोड़ा दाईं ओर मुड़ें  {destination}</string><!--Make a slight right towards-->
 				<key>name</key>
-				<string>Make a slight right to stay on {way_name}</string>
+				<string>{way name} पर बने रहने के लिए थोड़ा दाईं ओर मुड़ें </string><!--Make a slight right to stay on {way_name}-->
 			</dict>
 			<key>straight</key>
 			<dict>
 				<key>default</key>
-				<string>Continue straight</string>
+				<string>सीधा जारी रखें</string><!--Continue straight-->
 				<key>destination</key>
-				<string>Continue towards {destination}</string>
+				<string>{destination} की ओर बढ़ते रहें</string><!--Continue towards {destination}-->
 				<key>distance</key>
-				<string>Continue straight for {distance}</string>
+				<string>{distance} सीधे जाते रहे</string><!--Continue straight for {distance}-->
 				<key>name</key>
-				<string>Continue straight to stay on {way_name}</string>
+				<string>{way name} पर बने रहने के लिए सीधे चलते रहें</string><!--Continue straight to stay on {way_name}-->
 				<key>namedistance</key>
-				<string>Continue on {way_name} for {distance}</string>
+				<string>{way_name} पर {distance} के लिए जारी रखें</string><!--Continue on {way_name} for {distance}-->
 			</dict>
 			<key>uturn</key>
 			<dict>
 				<key>default</key>
-				<string>Make a U-turn</string>
+				<string>एक यू - टर्न लें</string>
 				<key>destination</key>
-				<string>Make a U-turn towards {destination}</string>
+				<string>{destination} की ओर यू-टर्न लें </string><!--Make a U-turn towards {destination}-->
 				<key>name</key>
-				<string>Make a U-turn and continue on {way_name}</string>
+				<string>यू-टर्न लें और {way_name} पर जारी रखें</string><!--Make a U-turn and continue on {way_name}-->
 			</dict>
 		</dict>
 		<key>depart</key>
@@ -204,12 +204,12 @@
 			<key>default</key>
 			<dict>
 				<key>default</key>
-				<string>Head {direction}</string>
+				<string>हेड{direction}</string>
 				<key>name</key>
-				<string>Head {direction} on {way_name}</string>
-			</dict>
+				<string>Head {direction} on {way_name}</string><!--Head {direction} on {way_name}-->
+			<<!--->/dict>
 		</dict>
-		<key>end of road</key>
+		<key>en</ of road</key>
 		<dict>
 			<key>default</key>
 			<dict>
