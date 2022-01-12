@@ -14,42 +14,42 @@
 			<key>default</key>
 			<dict>
 				<key>default</key>
-				<string>You have arrived at your {nth} destination</string>
+				<string>आप अपने {nth} गंतव्य पर पहुंच गए हैं </string>  <!-- You have arrived at your {nth} destination-->
 			</dict>
 			<key>left</key>
 			<dict>
 				<key>default</key>
-				<string>You have arrived at your {nth} destination, on the left</string>
+				<string>आप बाईं ओर अपने {end} गंतव्य पर पहुंच गए हैं</string><!--You have arrived at your {nth} destination, on the left-->
 			</dict>
 			<key>right</key>
 			<dict>
 				<key>default</key>
-				<string>You have arrived at your {nth} destination, on the right</string>
+				<string>आप दाईं ओर अपने {end} गंतव्य पर पहुंच गए हैं</string> <!--You have arrived at your {nth} destination, on the right-->
 			</dict>
 			<key>sharp left</key>
 			<dict>
 				<key>default</key>
-				<string>You have arrived at your {nth} destination, on the left</string>
+				<string>आप बाईं ओर अपने {end} गंतव्य पर पहुंच गए हैं </string> <!--You have arrived at your {nth} destination, on the left-->
 			</dict>
 			<key>sharp right</key>
 			<dict>
 				<key>default</key>
-				<string>You have arrived at your {nth} destination, on the right</string>
+				<string>आप अपने {nth} गंतव्य पर, दाईं ओर पहुंच गए हैं</string><!--You have arrived at your {nth} destination, on the right-->
 			</dict>
 			<key>slight left</key>
 			<dict>
 				<key>default</key>
-				<string>You have arrived at your {nth} destination, on the left</string>
+				<string>आप अपने {nth} गंतव्य पर, बाईं ओर आ चुके हैं </string><!--You have arrived at your {nth} destination, on the left-->
 			</dict>
 			<key>slight right</key>
 			<dict>
 				<key>default</key>
-				<string>You have arrived at your {nth} destination, on the right</string>
+				<string>आप अपने {nth} गंतव्य पर, दाईं ओर पहुंच गए हैं</string><!--You have arrived at your {nth} destination, on the right-->
 			</dict>
 			<key>straight</key>
 			<dict>
 				<key>default</key>
-				<string>You have arrived at your {nth} destination, straight ahead</string>
+				<string>आप अपने {nth} गंतव्य पर सीधे पहुंच गए हैं</string><!--You have arrived at your {nth} destination, straight ahead-->
 			</dict>
 		</dict>
 		<key>constants</key>
@@ -57,39 +57,39 @@
 			<key>direction</key>
 			<dict>
 				<key>east</key>
-				<string>east</string>
+				<string>पूर्व</string>
 				<key>north</key>
-				<string>north</string>
+				<string>उत्तर</string>
 				<key>northeast</key>
-				<string>northeast</string>
+				<string>नॉर्थ ईस्ट</string>
 				<key>northwest</key>
-				<string>northwest</string>
+				<string>उत्तर पश्चिम</string>
 				<key>south</key>
-				<string>south</string>
+				<string>दक्षिण</string>
 				<key>southeast</key>
-				<string>southeast</string>
+				<string>दक्षिण पूर्व</string>
 				<key>southwest</key>
-				<string>southwest</string>
+				<string>दक्षिण पश्चिम</string>
 				<key>west</key>
-				<string>west</string>
+				<string>पश्चिम</string>
 			</dict>
 			<key>lanes</key>
 			<dict>
 				<key>ox</key>
-				<string>Keep left</string>
+				<string>बाईं ओर रहें</string>
 				<key>oxo</key>
-				<string>Keep left or right</string>
+				<string>बाएँ या दाएँ रखें</string><!--Keep left or right-->
 				<key>xo</key>
-				<string>Keep right</string>
+				<string>दाईं ओर चलते रहें</string><!--Keep right-->
 				<key>xox</key>
-				<string>Keep in the middle</string>
+				<string>बीच में रखें</string><!--Keep in the middle-->
 			</dict>
 			<key>modifier</key>
 			<dict>
 				<key>left</key>
-				<string>left</string>
+				<string>बाएं</string>
 				<key>right</key>
-				<string>right</string>
+				<string>दायें</string>
 				<key>sharp left</key>
 				<string>sharp left</string>
 				<key>sharp right</key>
