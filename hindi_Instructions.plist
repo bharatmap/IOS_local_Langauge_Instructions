@@ -206,7 +206,7 @@
 				<key>default</key>
 				<string>हेड{direction}</string>
 				<key>name</key>
-				<string>Head {direction} on {way_name}</string><!--Head {direction} on {way_name}-->
+				<string>/*{way_name} पर {direction} पर जाएं*/</string><!--Head {direction} on {way_name}-->
 			<<!--->/dict>
 		</dict>
 		<key>en</ of road</key>
@@ -214,29 +214,29 @@
 			<key>default</key>
 			<dict>
 				<key>default</key>
-				<string>Turn {modifier}</string>
+				<string>{modifier} मुड़ें </string>
 				<key>destination</key>
-				<string>Turn {modifier} towards {destination}</string>
+				<string>{destination} की ओर {modifier} मुड़ें</string><!--Turn {modifier} towards {destination}-->
 				<key>name</key>
-				<string>Turn {modifier} onto {way_name}</string>
+				<string>{way_name} पर {modifier} मुड़ें</string><--!Turn {modifier} onto {way_name}-->
 			</dict>
 			<key>straight</key>
 			<dict>
 				<key>default</key>
-				<string>Continue straight</string>
+				<string>सीधे चलते रहें</string><!--Continue straight-->
 				<key>destination</key>
-				<string>Continue straight towards {destination}</string>
+				<string>सीधे {गंतव्य} की ओर बढ़ते रहें {destination}</string><!--Continue straight towards-->
 				<key>name</key>
-				<string>Continue straight onto {way_name}</string>
+				<string>सीधे {way_name} पर चलते रहें</string><!--Continue straight onto {way_name}-->
 			</dict>
 			<key>uturn</key>
 			<dict>
 				<key>default</key>
-				<string>Make a U-turn at the end of the road</string>
+				<string>सड़क के अंत में यू-टर्न लें</string><!--Make a U-turn at the end of the road-->
 				<key>destination</key>
-				<string>Make a U-turn towards {destination} at the end of the road</string>
+				<string>सड़क के अंत में {गंतव्य} की ओर यू-टर्न लें</string><!--Make a U-turn towards {destination} at the end of the road-->
 				<key>name</key>
-				<string>Make a U-turn onto {way_name} at the end of the road</string>
+				<string>सड़क के अंत में {way_name} पर यू-टर्न लें</string><!--Make a U-turn onto {way_name} at the end of the road-->
 			</dict>
 		</dict>
 		<key>exit rotary</key>
@@ -244,38 +244,38 @@
 			<key>default</key>
 			<dict>
 				<key>default</key>
-				<string>Make a {modifier}</string>
+				<string>{modifier} मुड़ें</string>
 				<key>destination</key>
-				<string>Make a {modifier} towards {destination}</string>
+				<string>{destination} की ओर {modifier} मुड़ें</string><!--Make a {modifier} towards {destination}-->
 				<key>name</key>
-				<string>Make a {modifier} onto {way_name}</string>
+				<string>{way_name} की तरफ़ {modifier} मुड़ें</string><!--Make a {modifier} onto {way_name}-->
 			</dict>
 			<key>left</key>
 			<dict>
 				<key>default</key>
-				<string>Turn left</string>
+				<string>बाएं मुड़ें</string>
 				<key>destination</key>
-				<string>Turn left towards {destination}</string>
+				<string>{destination} की ओर बाएं मुड़ें</string><!--Turn left towards {destination}-->
 				<key>name</key>
-				<string>Turn left onto {way_name}</string>
+				<string>{way_name} पर बाएं मुड़ें</string><!--Turn left onto {way_name}-->
 			</dict>
 			<key>right</key>
 			<dict>
 				<key>default</key>
-				<string>Turn right</string>
+				<string>दायें मुड़ें</string>
 				<key>destination</key>
-				<string>Turn right towards {destination}</string>
+				<string>{destination} की ओर दाएं मुड़ें</string><!--Turn right towards {destination}-->
 				<key>name</key>
-				<string>Turn right onto {way_name}</string>
+				<string>{way_name} पर दाएं मुड़ें</string><!--Turn right onto {way_name}-->
 			</dict>
 			<key>straight</key>
 			<dict>
 				<key>default</key>
-				<string>Go straight</string>
+				<string>आगे सीधे बढ़ो</string><!--Go straight-->
 				<key>destination</key>
-				<string>Go straight towards {destination}</string>
+				<string>सीधे {destination} की ओर जाएं</string><!--Go straight towards {destination}-->
 				<key>name</key>
-				<string>Go straight onto {way_name}</string>
+				<string>सीधे {way_name} की ओर जाएं</string><!--Go straight onto {way_name}-->
 			</dict>
 		</dict>
 		<key>exit roundabout</key>
@@ -283,27 +283,27 @@
 			<key>default</key>
 			<dict>
 				<key>default</key>
-				<string>Make a {modifier}</string>
+				<string>{modifier} मुड़ें</string>
 				<key>destination</key>
-				<string>Make a {modifier} towards {destination}</string>
+				<string>{destination} की ओर {modifier} मुड़ें</string><!--Make a {modifier} towards {destination}-->
 				<key>name</key>
-				<string>Make a {modifier} onto {way_name}</string>
+				<string>{way_name} की तरफ़ {modifier} मुड़ें</string><!--Make a {modifier} onto {way_name}-->
 			</dict>
 			<key>left</key>
 			<dict>
 				<key>default</key>
-				<string>Turn left</string>
+				<string>बाएं मुड़ें</string>
 				<key>destination</key>
-				<string>Turn left towards {destination}</string>
+				<string>{destination} की ओर बाएं मुड़ें</string><!--Turn left towards {destination}-->
 				<key>name</key>
-				<string>Turn left onto {way_name}</string>
+				<string>{way_name} पर बाएं मुड़ें</string><!--Turn left onto {way_name}-->
 			</dict>
 			<key>right</key>
 			<dict>
 				<key>default</key>
-				<string>Turn right</string>
+				<string>दायें मुड़ें</string>
 				<key>destination</key>
-				<string>Turn right towards {destination}</string>
+				<string>"{destination} की ओर दाएं मुड़ें"</string><!--Turn right towards {destination} -->
 				<key>name</key>
 				<string>Turn right onto {way_name}</string>
 			</dict>
