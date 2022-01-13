@@ -218,7 +218,7 @@
 				<key>destination</key>
 				<string>{destination} की ओर {modifier} मुड़ें</string><!--Turn {modifier} towards {destination}-->
 				<key>name</key>
-				<string>{way_name} पर {modifier} मुड़ें</string><--!Turn {modifier} onto {way_name}-->
+				<string>{way_name} पर {modifier} मुड़ें</string><!--Turn {modifier} onto {way_name}-->
 			</dict>
 			<key>straight</key>
 			<dict>
