@@ -207,7 +207,7 @@
 				<string>हेड{direction}</string>
 				<key>name</key>
 				<string>/*{way_name} पर {direction} पर जाएं*/</string><!--Head {direction} on {way_name}-->
-			<<!--->/dict>
+			</dict>
 		</dict>
 		<key>en</ of road</key>
 		<dict>
