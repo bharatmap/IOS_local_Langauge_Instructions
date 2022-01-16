@@ -170,11 +170,11 @@
 			<key>slight right</key>
 			<dict>
 				<key>default</key>
-				<string>थोड़ा से दाईं ओर ले जाएं </string><!--Make a slight right-->
+				<string>थोड़ा से दाहिने ओर ले जाएं </string><!--Make a slight right-->
 				<key>destination</key>
-				<string> {destination} की ओर थोड़ा दाईं ओर मुड़ें  {destination}</string><!--Make a slight right towards-->
+				<string> {destination} की ओर थोड़ा दाहिने ओर मुड़ें  {destination}</string><!--Make a slight right towards-->
 				<key>name</key>
-				<string>{way name} पर बने रहने के लिए थोड़ा दाईं ओर मुड़ें </string><!--Make a slight right to stay on {way_name}-->
+				<string>{way name} पर बने रहने के लिए थोड़ा दाहिने ओर मुड़ें </string><!--Make a slight right to stay on {way_name}-->
 			</dict>
 			<key>straight</key>
 			<dict>
@@ -305,16 +305,16 @@
 				<key>destination</key>
 				<string>"{destination} की ओर दाएं मुड़ें"</string><!--Turn right towards {destination} -->
 				<key>name</key>
-				<string>Turn right onto {way_name}</string>
+				<string>{way_name} पर दाएं मुड़ें</string><!--Turn right onto {way_name}-->
 			</dict>
 			<key>straight</key>
 			<dict>
 				<key>default</key>
-				<string>Go straight</string>
+				<string>सीधे जाइए</string><!--Go straight-->
 				<key>destination</key>
-				<string>Go straight towards {destination}</string>
+				<string>सीधे {गंतव्य} की ओर जाएं</string><!--Go straight towards {destination}-->
 				<key>name</key>
-				<string>Go straight onto {way_name}</string>
+				<string>सीधे {way_name} पर जाएं</string><!--Go straight onto {way_name}-->
 			</dict>
 		</dict>
 		<key>fork</key>
@@ -322,56 +322,56 @@
 			<key>default</key>
 			<dict>
 				<key>default</key>
-				<string>Keep {modifier} at the fork</string>
+				<string>दोराहे पर {modifier} रखें</string><!--Keep {modifier} at the fork-->
 				<key>destination</key>
-				<string>Keep {modifier} at the fork towards {destination}</string>
+				<string>दोराहे पर {गंतव्य} की ओर {modifier} रहें</string><!--Keep {modifier} at the fork towards {destination}-->
 				<key>name</key>
-				<string>Keep {modifier} at the fork onto {way_name}</string>
+				<string>{way_name} पर दोराहे पर {modifier} रहें</string><!--Keep {modifier} at the fork onto {way_name}-->
 			</dict>
 			<key>sharp left</key>
 			<dict>
 				<key>default</key>
-				<string>Take a sharp left at the fork</string>
+				<string>दोराहे के पास तेज बायीं ओर मुड़ें</string><!--Take a sharp left at the fork-->
 				<key>destination</key>
-				<string>Take a sharp left at the fork towards {destination}</string>
+				<string>दोराहे पर {destination} की ओर ठीक बाईं ओर मुड़ें</string><!--Take a sharp left at the fork towards {destination}-->
 				<key>name</key>
-				<string>Take a sharp left at the fork onto {way_name}</string>
+				<string>{way_name} पर दोराहे पर ठीक बाईं ओर मुड़ें</string><!--Take a sharp left at the fork onto {way_name}-->
 			</dict>
 			<key>sharp right</key>
 			<dict>
 				<key>default</key>
-				<string>Take a sharp right at the fork</string>
+				<string>दोराहे के पास तेज दाहिने ओर मुड़ें</string><!--Take a sharp right at the fork-->
 				<key>destination</key>
-				<string>Take a sharp right at the fork towards {destination}</string>
+				<string>दोराहे पर {destination} की ओर ठीक दाहिने ओर मुड़ें</string><!--Take a sharp right at the fork towards {destination}-->
 				<key>name</key>
-				<string>Take a sharp right at the fork onto {way_name}</string>
+				<string>{way_name} पर दोराहे पर ठीक दाहिने ओर मुड़ें</string><!--Take a sharp right at the fork onto {way_name}-->
 			</dict>
 			<key>slight left</key>
 			<dict>
 				<key>default</key>
-				<string>Keep left at the fork</string>
+				<string>दोराहे पर बाएं रखें</string><!--Keep left at the fork-->
 				<key>destination</key>
-				<string>Keep left at the fork towards {destination}</string>
+				<string>दोराहे पर {destination} की ओर बाएं रहें</string><!--Keep left at the fork towards {destination}-->
 				<key>name</key>
-				<string>Keep left at the fork onto {way_name}</string>
+				<string>दोराहे पर {way_name} पर बाएं बने रहें</string><!--Keep left at the fork onto {way_name}-->
 			</dict>
 			<key>slight right</key>
 			<dict>
 				<key>default</key>
-				<string>Keep right at the fork</string>
+				<string>दोराहे पर दाहिने रखें</string><!--Keep right at the fork-->
 				<key>destination</key>
-				<string>Keep right at the fork towards {destination}</string>
+				<string>दोराहे पर {destination} की ओर दाहिने रहें</string><!--Keep right at the fork towards {destination}-->
 				<key>name</key>
-				<string>Keep right at the fork onto {way_name}</string>
+				<string>दोराहे पर {way_name} पर दाहिने बने रहें</string><!--Keep right at the fork onto {way_name}-->
 			</dict>
 			<key>uturn</key>
 			<dict>
 				<key>default</key>
-				<string>Make a U-turn</string>
+				<string>यू-टर्न लें</string>
 				<key>destination</key>
-				<string>Make a U-turn towards {destination}</string>
+				<string>{गंतव्य} की ओर यू-टर्न लें</string><!--Make a U-turn towards {destination}-->
 				<key>name</key>
-				<string>Make a U-turn onto {way_name}</string>
+				<string>{way_name} पर यू-टर्न लें</string><!--Make a U-turn onto {way_name}-->
 			</dict>
 		</dict>
 		<key>merge</key>
@@ -379,16 +379,16 @@
 			<key>default</key>
 			<dict>
 				<key>default</key>
-				<string>Merge {modifier}</string>
+				<string>मर्ज {modifier}</string><!--Merge {modifier}-->
 				<key>destination</key>
-				<string>Merge {modifier} towards {destination}</string>
+				<string>{destination} की ओर {modifier} मर्ज करें</string><!--Merge {modifier} towards {destination}-->
 				<key>name</key>
-				<string>Merge {modifier} onto {way_name}</string>
+				<string>{way name} पर {modifier} मर्ज करें</string><!--Merge {modifier} onto {way_name}-->
 			</dict>
 			<key>sharp left</key>
 			<dict>
 				<key>default</key>
-				<string>Merge left</string>
+				<string>बाएं मर्ज करें</string><!--Merge left-->
 				<key>destination</key>
 				<string>Merge left towards {destination}</string>
 				<key>name</key>
