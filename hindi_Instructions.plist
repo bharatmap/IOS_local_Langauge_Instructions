@@ -708,38 +708,38 @@
 				<key>default</key>
 				<dict>
 					<key>default</key>
-					<string>Enter the rotary</string>
+					<string>रोटरी में प्रवेश करें</string><!--Enter the rotary-->
 					<key>destination</key>
-					<string>Enter the rotary and exit towards {destination}</string>
+					<string>रोटरी में प्रवेश करें और {गंतव्य} की ओर बाहर निकलें</string><!--Enter the rotary and exit towards {destination}-->
 					<key>name</key>
-					<string>Enter the rotary and exit onto {way_name}</string>
+					<string>रोटरी में प्रवेश करें और {way_name} पर बाहर निकलें</string><!--Enter the rotary and exit onto {way_name}-->
 				</dict>
 				<key>exit</key>
 				<dict>
 					<key>default</key>
-					<string>Enter the rotary and take the {exit_number} exit</string>
+					<string>रोटरी में प्रवेश करें और {निकास_नंबर} से बाहर निकलें</string><!--Enter the rotary and take the {exit_number} exit-->
 					<key>destination</key>
-					<string>Enter the rotary and take the {exit_number} exit towards {destination}</string>
+					<string>रोटरी में प्रवेश करें और {exit_number} से {destination} की ओर निकलें</string><!--Enter the rotary and take the {exit_number} exit towards {destination}-->
 					<key>name</key>
-					<string>Enter the rotary and take the {exit_number} exit onto {way_name}</string>
+					<string>रोटरी में प्रवेश करें और {way_name} पर {exit_number} से बाहर निकलें</string><!--Enter the rotary and take the {exit_number} exit onto {way_name}-->
 				</dict>
 				<key>name</key>
 				<dict>
 					<key>default</key>
 					<string>Enter {rotary_name}</string>
 					<key>destination</key>
-					<string>Enter {rotary_name} and exit towards {destination}</string>
+					<string>{रोटरी_नाम} दर्ज करें और {गंतव्य} की ओर निकलें</string><!--Enter {rotary_name} and exit towards {destination}-->
 					<key>name</key>
-					<string>Enter {rotary_name} and exit onto {way_name}</string>
+					<string>{रोटरी_नाम} दर्ज करें और {way_name} पर बाहर निकलें</string><!--Enter {rotary_name} and exit onto {way_name}-->
 				</dict>
 				<key>name_exit</key>
 				<dict>
 					<key>default</key>
-					<string>Enter {rotary_name} and take the {exit_number} exit</string>
+					<string>{rotary_name} दर्ज करें और {exit_number} से बाहर निकलें</string><!--Enter {rotary_name} and take the {exit_number} exit-->
 					<key>destination</key>
-					<string>Enter {rotary_name} and take the {exit_number} exit towards {destination}</string>
+					<string>{rotary_name} दर्ज करें और {exit_number} से {destination} की ओर निकलें</string><!--Enter {rotary_name} and take the {exit_number} exit towards {destination}-->
 					<key>name</key>
-					<string>Enter {rotary_name} and take the {exit_number} exit onto {way_name}</string>
+					<string>{rotary_name} दर्ज करें और {exit_number} से {way_name} पर निकलें</string><!--Enter {rotary_name} and take the {exit_number} exit onto {way_name}-->
 				</dict>
 			</dict>
 		</dict>
@@ -750,20 +750,20 @@
 				<key>default</key>
 				<dict>
 					<key>default</key>
-					<string>Enter the roundabout</string>
+					<string>राउंडअबाउट में प्रवेश करें</string><!---Enter the roundabout-->
 					<key>destination</key>
-					<string>Enter the roundabout and exit towards {destination}</string>
+					<string>राउंडअबाउट में प्रवेश करें और {destination} की ओर निकलें</string><!--Enter the roundabout and exit towards {destination}-->
 					<key>name</key>
-					<string>Enter the roundabout and exit onto {way_name}</string>
+					<string>राउंडअबाउट में प्रवेश करें और {way_name} पर बाहर निकलें</string><!---Enter the roundabout and exit onto {way_name}-->
 				</dict>
 				<key>exit</key>
 				<dict>
 					<key>default</key>
-					<string>Enter the roundabout and take the {exit_number} exit</string>
+					<string>राउंडअबाउट में प्रवेश करें और {exit_number} से बाहर निकलें</string><!--Enter the roundabout and take the {exit_number} exit-->
 					<key>destination</key>
-					<string>Enter the roundabout and take the {exit_number} exit towards {destination}</string>
+					<string>राउंडअबाउट में प्रवेश करें और {exit_number} से {destination} की ओर निकलें</string><!--Enter the roundabout and take the {exit_number} exit towards {destination}-->
 					<key>name</key>
-					<string>Enter the roundabout and take the {exit_number} exit onto {way_name}</string>
+					<string>राउंडअबाउट में प्रवेश करें और {way_name} पर {exit_number} से बाहर निकलें।</string><!--Enter the roundabout and take the {exit_number} exit onto {way_name}-->
 				</dict>
 			</dict>
 		</dict>
@@ -772,38 +772,38 @@
 			<key>default</key>
 			<dict>
 				<key>default</key>
-				<string>At the roundabout make a {modifier}</string>
+				<string>राउंडअबाउट पर {बाएं} मुड़ें</string><!--At the roundabout make a {modifier}-->
 				<key>destination</key>
-				<string>At the roundabout make a {modifier} towards {destination}</string>
+				<string>राउंडअबाउट पर {destination} की ओर {modifier} बने</string><!---At the roundabout make a {modifier} towards {destination}-->
 				<key>name</key>
-				<string>At the roundabout make a {modifier} onto {way_name}</string>
+				<string>राउंडअबाउट पर {way_name} पर {modifier} मुड़ें</string><!---At the roundabout take a {modifier} onto {way_name}-->
 			</dict>
 			<key>left</key>
 			<dict>
 				<key>default</key>
-				<string>At the roundabout turn left</string>
+				<string>चौराहे पर बाएं मुड़ें</string><!---At the roundabout turn left-->
 				<key>destination</key>
-				<string>At the roundabout turn left towards {destination}</string>
+				<string>चौराहे पर {destination} की ओर बाएं मुड़ें</string><!--At the roundabout turn left towards {destination}-->
 				<key>name</key>
-				<string>At the roundabout turn left onto {way_name}</string>
+				<string>चौराहे पर {way_name} पर बाएं मुड़ें</string><!--At the roundabout turn left onto {way_name}-->
 			</dict>
 			<key>right</key>
 			<dict>
 				<key>default</key>
-				<string>At the roundabout turn right</string>
+				<string>चौराहे पर दाएं मुड़ें</string><!---At the roundabout turn right->
 				<key>destination</key>
-				<string>At the roundabout turn right towards {destination}</string>
+				<string>चौराहे पर दाएं मुड़ें {destination} की ओर</string><!--At the roundabout turn right towards {destination}-->
 				<key>name</key>
-				<string>At the roundabout turn right onto {way_name}</string>
+				<string>चौराहे पर {way_name} पर दाएं मुड़ें</string><!--At the roundabout turn right onto {way_name}-->
 			</dict>
 			<key>straight</key>
 			<dict>
 				<key>default</key>
-				<string>At the roundabout continue straight</string>
+				<string>चौराहे पर सीधे चलते रहें</string><!--At the roundabout continue straight-->
 				<key>destination</key>
-				<string>At the roundabout continue straight towards {destination}</string>
+				<string>चौराहे पर सीधे {destination} की ओर बढ़ते रहें</string><!--At the roundabout continue straight towards {destination}-->
 				<key>name</key>
-				<string>At the roundabout continue straight onto {way_name}</string>
+				<string>चौराहे पर सीधे {way_name} पर चलते रहें</string><!--At the roundabout continue straight onto {way_name}-->
 			</dict>
 		</dict>
 		<key>turn</key>
@@ -811,38 +811,38 @@
 			<key>default</key>
 			<dict>
 				<key>default</key>
-				<string>Make a {modifier}</string>
+				<string>दायें मुड़ें</string><!--Make a {modifier}-->
 				<key>destination</key>
-				<string>Make a {modifier} towards {destination}</string>
+				<string>{destination} की ओर {modifier} मुड़ें</string><!--Make a {modifier} towards {destination}-->
 				<key>name</key>
-				<string>Make a {modifier} onto {way_name}</string>
+				<string>{way_name} की तरफ़ {modifier} मुड़ें</string><!--Make a {modifier} onto {way_name}-->
 			</dict>
 			<key>left</key>
 			<dict>
 				<key>default</key>
-				<string>Turn left</string>
+				<string>बांए मुड़िए</string>
 				<key>destination</key>
-				<string>Turn left towards {destination}</string>
+				<string>{गंतव्य} की ओर बाएं मुड़ें</string><!--Turn left towards {destination}-->
 				<key>name</key>
-				<string>Turn left onto {way_name}</string>
+				<string>{way_name} पर बाएं मुड़ें</string><!--Turn left onto {way_name}-->
 			</dict>
 			<key>right</key>
 			<dict>
 				<key>default</key>
-				<string>Turn right</string>
+				<string>दांए मुड़िए</string>
 				<key>destination</key>
-				<string>Turn right towards {destination}</string>
+				<string>{गंतव्य} की ओर दाएं मुड़ें</string><!--Turn right towards {destination}-->
 				<key>name</key>
-				<string>Turn right onto {way_name}</string>
+				<string>{way_name} पर दाएं मुड़ें</string><!--Turn right onto {way_name}-->
 			</dict>
 			<key>straight</key>
 			<dict>
 				<key>default</key>
-				<string>Go straight</string>
+				<string> सीधे जाइए</string><!--Go straight-->
 				<key>destination</key>
-				<string>Go straight towards {destination}</string>
+				<string>सीधे {गंतव्य} की ओर जाएं</string><!--Go straight towards {destination}-->
 				<key>name</key>
-				<string>Go straight onto {way_name}</string>
+				<string>सीधे {way_name} पर जाएं</string><!--Go straight onto {way_name}-->
 			</dict>
 		</dict>
 		<key>use lane</key>
@@ -855,7 +855,7 @@
 			<key>no_lanes</key>
 			<dict>
 				<key>default</key>
-				<string>Continue straight</string>
+				<string>सीधा जारी रखें</string><!--Continue straight-->
 			</dict>
 		</dict>
 	</dict>
