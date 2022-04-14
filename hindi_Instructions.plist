@@ -448,7 +448,7 @@
 			<key>default</key>
 			<dict>
 				<key>default</key>
-				<string>Continue {modifier}</string>
+				<string>{modifier}जारी रखें </string><!--CONTINUE {modifier}-->
 				<key>destination</key>
 				<string>{destination} की ओर {modifier} जारी रखें </string><!--Continue {modifier} towards {destination}-->
 				<key>name</key>
@@ -493,20 +493,20 @@
 			<key>straight</key>
 			<dict>
 				<key>default</key>
-				<string>Continue straight</string>
+				<string>सीधा जारी रखें</string><!--Continue straight-->
 				<key>destination</key>
-				<string>Continue towards {destination}</string>
+				<string>{गंतव्य} की ओर बढ़ते रहें</string><!--Continue towards {destination}-->
 				<key>name</key>
-				<string>Continue onto {way_name}</string>
+				<string>{way_name} पर जारी रखें</string><!--Continue onto {way_name}-->
 			</dict>
 			<key>uturn</key>
 			<dict>
 				<key>default</key>
-				<string>Make a U-turn</string>
+				<string>एक यू - टर्न लें</string><!--Make a U-turn-->
 				<key>destination</key>
-				<string>Make a U-turn towards {destination}</string>
+				<string>{गंतव्य} की ओर यू-टर्न लें</string><!--Make a U-turn towards {destination}-->
 				<key>name</key>
-				<string>Make a U-turn onto {way_name}</string>
+				<string>{way_name} पर यू-टर्न लें</string><!---Make a U-turn onto {way_name}-->
 			</dict>
 		</dict>
 		<key>notification</key>
@@ -514,20 +514,20 @@
 			<key>default</key>
 			<dict>
 				<key>default</key>
-				<string>Continue {modifier}</string>
+				<string>{modifier} जारी रखें</string><!--Continue {modifier}-->
 				<key>destination</key>
-				<string>Continue {modifier} towards {destination}</string>
+				<string>{गंतव्य} की ओर {modifier} जारी रखें </string><!--Continue {modifier} towards {destination}-->
 				<key>name</key>
-				<string>Continue {modifier} onto {way_name}</string>
+				<string>{way_name} पर {modifier} जारी रखें</string><!--Continue {modifier} onto {way_name}-->
 			</dict>
 			<key>uturn</key>
 			<dict>
 				<key>default</key>
-				<string>Make a U-turn</string>
+				<string>यू-टर्न लें</string><!--Make a U-turn-->
 				<key>destination</key>
-				<string>Make a U-turn towards {destination}</string>
+				<string>{गंतव्य} की ओर यू-टर्न लें</string><!--Make a U-turn towards {destination}-->
 				<key>name</key>
-				<string>Make a U-turn onto {way_name}</string>
+				<string>{way_name} पर यू-टर्न लें</string><!--Make a U-turn onto {way_name}-->
 			</dict>
 		</dict>
 		<key>off ramp</key>
@@ -535,93 +535,93 @@
 			<key>default</key>
 			<dict>
 				<key>default</key>
-				<string>Take the ramp</string>
+				<string>रैंप लें</string><!--Take the ramp-->
 				<key>destination</key>
-				<string>Take the ramp towards {destination}</string>
+				<string>{गंतव्य} की ओर रैंप लें</string><!--Take the ramp towards {destination}-->
 				<key>exit</key>
-				<string>Take exit {exit}</string>
+				<string>बाहर निकलें {exit}</string><!--Take exit {exit}-->
 				<key>exit_destination</key>
-				<string>Take exit {exit} towards {destination}</string>
+				<string>{destination} की ओर {exit} निकलें</string><!--Take exit {exit} towards {destination}-->
 				<key>name</key>
-				<string>Take the ramp onto {way_name}</string>
+				<string>{way_name} पर रैंप पर चलें</string><!--Take the ramp onto {way_name}-->
 			</dict>
 			<key>left</key>
 			<dict>
 				<key>default</key>
-				<string>Take the ramp on the left</string>
+				<string>बाईं ओर रैंप लें</string><!--Take the ramp on the left-->
 				<key>destination</key>
-				<string>Take the ramp on the left towards {destination}</string>
+				<string>बाईं ओर रैंप लें {गंतव्य} की ओर </string><!--Take the ramp on the left towards {destination}-->
 				<key>exit</key>
-				<string>Take exit {exit} on the left</string>
+				<string>बाईं ओर {exit} से बाहर निकलें</string><!--Take exit {exit} on the left-->
 				<key>exit_destination</key>
-				<string>Take exit {exit} on the left towards {destination}</string>
+				<string>बाईं ओर {destination} की ओर {exit} से बाहर निकलें</string><!--Take exit {exit} on the left towards {destination}-->
 				<key>name</key>
-				<string>Take the ramp on the left onto {way_name}</string>
+				<string>बाईं ओर रैंप लें {way_name} पर</string><!--Take the ramp on the left onto {way_name}-->
 			</dict>
 			<key>right</key>
 			<dict>
 				<key>default</key>
-				<string>Take the ramp on the right</string>
+				<string>दायें ओर रैंप लें</string><!--Take the ramp on the right-->
 				<key>destination</key>
-				<string>Take the ramp on the right towards {destination}</string>
+				<string>दायें ओर रैंप लें {गंतव्य} की ओर</string><!--Take the ramp on the right towards {destination}-->
 				<key>exit</key>
-				<string>Take exit {exit} on the right</string>
+				<string>दायें ओर {exit} से बाहर निकलें</string><!--Take exit {exit} on the right-->
 				<key>exit_destination</key>
-				<string>Take exit {exit} on the right towards {destination}</string>
+				<string>दायें ओर {destination} की ओर {exit} से बाहर निकलें</string><!--Take exit {exit} on the right towards {destination}-->
 				<key>name</key>
-				<string>Take the ramp on the right onto {way_name}</string>
+				<string>दायें ओर रैंप लें {way_name} पर</string><!--Take the ramp on the right onto {way_name}-->
 			</dict>
 			<key>sharp left</key>
 			<dict>
 				<key>default</key>
-				<string>Take the ramp on the left</string>
+				<string>बाईं ओर रैंप लें</string><!--Take the ramp on the left-->
 				<key>destination</key>
-				<string>Take the ramp on the left towards {destination}</string>
+				<string>बाईं ओर रैंप लें {गंतव्य} की ओर</string><!--Take the ramp on the left towards {destination}-->
 				<key>exit</key>
-				<string>Take exit {exit} on the left</string>
+				<string>बाईं ओर {exit} से बाहर निकलें</string><!--Take exit {exit} on the left-->
 				<key>exit_destination</key>
-				<string>Take exit {exit} on the left towards {destination}</string>
+				<string>बाईं ओर {destination} की ओर {exit} से बाहर निकलें</string><!--Take exit {exit} on the left towards {destination}-->
 				<key>name</key>
-				<string>Take the ramp on the left onto {way_name}</string>
+				<string>बाईं ओर रैंप लें {way_name} पर</string><!--Take the ramp on the left onto {way_name}-->
 			</dict>
 			<key>sharp right</key>
 			<dict>
 				<key>default</key>
-				<string>Take the ramp on the right</string>
+				<string>दायें ओर रैंप लें</string><!--Take the ramp on the right-->
 				<key>destination</key>
-				<string>Take the ramp on the right towards {destination}</string>
+				<string>दायें ओर रैंप लें {गंतव्य} की ओर</string><!--Take the ramp on the right towards {destination}-->
 				<key>exit</key>
-				<string>Take exit {exit} on the right</string>
+				<string>दायें ओर {exit} से बाहर निकलें</string><!--Take exit {exit} on the right-->
 				<key>exit_destination</key>
-				<string>Take exit {exit} on the right towards {destination}</string>
+				<string>दायें ओर {destination} की ओर {exit} से बाहर निकलें</string><!--Take exit {exit} on the right towards {destination}-->
 				<key>name</key>
-				<string>Take the ramp on the right onto {way_name}</string>
+				<string>दायें ओर रैंप लें {way_name} पर</string><!--Take the ramp on the right onto {way_name}-->
 			</dict>
 			<key>slight left</key>
 			<dict>
 				<key>default</key>
-				<string>Take the ramp on the left</string>
+				<string>बाईं ओर रैंप लें</string><!--Take the ramp on the left-->
 				<key>destination</key>
-				<string>Take the ramp on the left towards {destination}</string>
+				<string>बाईं ओर रैंप लें {गंतव्य} की ओर</string><!--Take the ramp on the left towards {destination}-->
 				<key>exit</key>
-				<string>Take exit {exit} on the left</string>
+				<string>बाईं ओर {exit} से बाहर निकलें</string><!--Take exit {exit} on the left-->
 				<key>exit_destination</key>
-				<string>Take exit {exit} on the left towards {destination}</string>
+				<string>बाईं ओर {destination} की ओर {exit} से बाहर निकलें</string><!--Take exit {exit} on the left towards {destination}-->
 				<key>name</key>
-				<string>Take the ramp on the left onto {way_name}</string>
+				<string>बाईं ओर रैंप लें {way_name} पर</string><!--Take the ramp on the left onto {way_name}-->
 			</dict>
 			<key>slight right</key>
 			<dict>
 				<key>default</key>
-				<string>Take the ramp on the right</string>
+				<string>दायें ओर रैंप लें</string><!--Take the ramp on the right-->
 				<key>destination</key>
-				<string>Take the ramp on the right towards {destination}</string>
+				<string>दायें ओर रैंप लें {गंतव्य} की ओर</string><!--Take the ramp on the right towards {destination}-->
 				<key>exit</key>
-				<string>Take exit {exit} on the right</string>
+				<string>दायें ओर {exit} से बाहर निकलें</string><!--Take exit {exit} on the right-->
 				<key>exit_destination</key>
-				<string>Take exit {exit} on the right towards {destination}</string>
+				<string>दायें ओर {destination} की ओर {exit} से बाहर निकलें</string><!--Take exit {exit} on the right towards {destination}-->
 				<key>name</key>
-				<string>Take the ramp on the right onto {way_name}</string>
+				<string>दायें ओर रैंप लें {way_name} पर</string><!--Take the ramp on the right onto {way_name}-->
 			</dict>
 		</dict>
 		<key>on ramp</key>
@@ -629,65 +629,68 @@
 			<key>default</key>
 			<dict>
 				<key>default</key>
-				<string>Take the ramp</string>
+				<string>रैंप लें</string><!--Take the ramp-->
 				<key>destination</key>
-				<string>Take the ramp towards {destination}</string>
+				<string>{गंतव्य} की ओर रैंप लें</string><!--Take the ramp towards {destination}-->
 				<key>name</key>
-				<string>Take the ramp onto {way_name}</string>
+				<string>{way_name} पर रैंप पर चलें</string><!--Take the ramp onto {way_name}-->
+				
+				
+				
 			</dict>
 			<key>left</key>
 			<dict>
 				<key>default</key>
-				<string>Take the ramp on the left</string>
+				<string>बाईं ओर रैंप लें</string><!--Take the ramp on the left-->
 				<key>destination</key>
-				<string>Take the ramp on the left towards {destination}</string>
+				<string>बाईं ओर रैंप लें {गंतव्य} की ओर</string><!--Take the ramp on the left towards {destination}-->
 				<key>name</key>
-				<string>Take the ramp on the left onto {way_name}</string>
+				<string>बाईं ओर रैंप लें {way_name} पर</string><!--Take the ramp on the left onto {way_name}-->
 			</dict>
 			<key>right</key>
 			<dict>
 				<key>default</key>
-				<string>Take the ramp on the right</string>
+				<string>दायें ओर रैंप लें</string><!--Take the ramp on the right-->
 				<key>destination</key>
-				<string>Take the ramp on the right towards {destination}</string>
+				<string>दायें ओर रैंप लें {गंतव्य} की ओर</string><!--Take the ramp on the right towards {destination}-->
 				<key>name</key>
-				<string>Take the ramp on the right onto {way_name}</string>
+				<string>दायें ओर रैंप लें {way_name} पर</string><!--Take the ramp on the right onto {way_name}-->
 			</dict>
 			<key>sharp left</key>
 			<dict>
 				<key>default</key>
-				<string>Take the ramp on the left</string>
+				<string>बाईं ओर रैंप लें</string><!--Take the ramp on the left-->
 				<key>destination</key>
-				<string>Take the ramp on the left towards {destination}</string>
+				<string>बाईं ओर रैंप लें {गंतव्य} की ओर</string><!--Take the ramp on the left towards {destination}-->
 				<key>name</key>
-				<string>Take the ramp on the left onto {way_name}</string>
+				<string>बाईं ओर रैंप लें {way_name} पर</string><!--Take the ramp on the left onto {way_name}-->
 			</dict>
 			<key>sharp right</key>
 			<dict>
 				<key>default</key>
-				<string>Take the ramp on the right</string>
+				<string>दायें ओर रैंप लें</string><!--Take the ramp on the right-->
 				<key>destination</key>
-				<string>Take the ramp on the right towards {destination}</string>
+				<string>दायें ओर रैंप लें {गंतव्य} की ओर</string><!--Take the ramp on the right towards {destination}-->
 				<key>name</key>
-				<string>Take the ramp on the right onto {way_name}</string>
+				<string>दायें ओर रैंप लें {way_name} पर</string><!--Take the ramp on the right onto {way_name}-->
 			</dict>
 			<key>slight left</key>
 			<dict>
 				<key>default</key>
-				<string>Take the ramp on the left</string>
+				<string>बाईं ओर रैंप लें</string><!--Take the ramp on the left-->
 				<key>destination</key>
-				<string>Take the ramp on the left towards {destination}</string>
+				<string>बाईं ओर रैंप लें {गंतव्य} की ओर</string><!--Take the ramp on the left towards {destination}-->
 				<key>name</key>
-				<string>Take the ramp on the left onto {way_name}</string>
+				<string>बाईं ओर रैंप लें {way_name} पर</string><!--Take the ramp on the left onto {way_name}-->
 			</dict>
 			<key>slight right</key>
 			<dict>
 				<key>default</key>
-				<string>Take the ramp on the right</string>
+				<string>दायें ओर रैंप लें</string><!--Take the ramp on the right-->
 				<key>destination</key>
-				<string>Take the ramp on the right towards {destination}</string>
+				<string>दायें ओर रैंप लें {गंतव्य} की ओर</string><!--Take the ramp on the right towards {destination}-->
 				<key>name</key>
-				<string>Take the ramp on the right onto {way_name}</string>
+				<string>दायें ओर रैंप लें {way_name} पर</string><!--Take the ramp on the right onto {way_name}-->
 			</dict>
 		</dict>
 		<key>phrase</key>
