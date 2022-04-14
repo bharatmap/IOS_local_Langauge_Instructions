@@ -424,7 +424,7 @@
 			<key>uturn</key>
 			<dict>
 				<key>default</key>
-				<string>यू-टर्न लें</string><!---->
+				<string>यू-टर्न लें</string><!--TAKE U-TURN-->
 				<key>destination</key>
 				<string>{destination} की ओर यू-टर्न लें</string><!--Make a U-turn towards {destination}-->
 				<key>name</key>
@@ -793,7 +793,7 @@
 			<key>right</key>
 			<dict>
 				<key>default</key>
-				<string>चौराहे पर दाएं मुड़ें</string><!---At the roundabout turn right->
+				<string>चौराहे पर दाएं मुड़ें</string><!---At the roundabout turn right-->
 				<key>destination</key>
 				<string>चौराहे पर दाएं मुड़ें {destination} की ओर</string><!--At the roundabout turn right towards {destination}-->
 				<key>name</key>
