@@ -390,45 +390,45 @@
 				<key>default</key>
 				<string>बाएं मर्ज करें</string><!--Merge left-->
 				<key>destination</key>
-				<string>Merge left towards {destination}</string>
+				<string>{destination} की ओर बाएं मर्ज करें</string>><!--Merge left towards {destination}-->
 				<key>name</key>
-				<string>Merge left onto {way_name}</string>
+				<string>{way_name} पर बाईं ओर मर्ज करें</string><!--Merge left onto {way_name}-->
 			</dict>
 			<key>sharp right</key>
 			<dict>
 				<key>default</key>
-				<string>Merge right</string>
+				<string>दाईं ओर मर्ज करें</string><!--Merge right-->
 				<key>destination</key>
-				<string>Merge right towards {destination}</string>
+				<string>{गंतव्य} की ओर दाईं ओर मर्ज करें</string><!--Merge right towards {destination}-->
 				<key>name</key>
-				<string>Merge right onto {way_name}</string>
+				<string>{way_name} पर सीधे मिलें</string><!--Merge right onto {way_name}-->
 			</dict>
 			<key>slight left</key>
 			<dict>
 				<key>default</key>
-				<string>Merge left</string>
+				<string>बाएं मर्ज करें</string><!--Merge left-->
 				<key>destination</key>
-				<string>Merge left towards {destination}</string>
+				<string>{destination} की ओर बाएं मर्ज करें</string><!--Merge left towards {destination}-->
 				<key>name</key>
-				<string>Merge left onto {way_name}</string>
+				<string>{way_name} पर बाईं ओर मर्ज करें</string><!--Merge left onto {way_name}-->
 			</dict>
 			<key>slight right</key>
 			<dict>
 				<key>default</key>
-				<string>Merge right</string>
+				<string>दाईं ओर मर्ज करें</string><!--Merge right-->
 				<key>destination</key>
-				<string>Merge right towards {destination}</string>
+				<string>{destination} की ओर दाईं ओर मर्ज करें</string><!--Merge right towards {destination}-->
 				<key>name</key>
-				<string>Merge right onto {way_name}</string>
+				<string>{way_name} पर सीधे मिलें</string><!--Merge right onto {way_name}-->
 			</dict>
 			<key>uturn</key>
 			<dict>
 				<key>default</key>
-				<string>Make a U-turn</string>
+				<string>यू-टर्न लें</string><!---->
 				<key>destination</key>
-				<string>Make a U-turn towards {destination}</string>
+				<string>{destination} की ओर यू-टर्न लें</string><!--Make a U-turn towards {destination}-->
 				<key>name</key>
-				<string>Make a U-turn onto {way_name}</string>
+				<string>{way_name} पर यू-टर्न लें</string><!--Make a U-turn onto {way_name}-->
 			</dict>
 		</dict>
 		<key>modes</key>
@@ -436,11 +436,11 @@
 			<key>ferry</key>
 			<dict>
 				<key>default</key>
-				<string>Take the ferry</string>
+				<string>नौका ले</string><!--Take the ferry-->
 				<key>destination</key>
-				<string>Take the ferry towards {destination}</string>
+				<string>नौका को {गंतव्य} की ओर ले जाएं</string><!--Take the ferry towards {destination}-->
 				<key>name</key>
-				<string>Take the ferry {way_name}</string>
+				<string>नौका को {way_name} की ओर ले जाएं</string><!--Take the ferry {way_name}-->
 			</dict>
 		</dict>
 		<key>new name</key>
@@ -450,45 +450,45 @@
 				<key>default</key>
 				<string>Continue {modifier}</string>
 				<key>destination</key>
-				<string>Continue {modifier} towards {destination}</string>
+				<string>{destination} की ओर {modifier} जारी रखें </string><!--Continue {modifier} towards {destination}-->
 				<key>name</key>
-				<string>Continue {modifier} onto {way_name}</string>
+				<string>{way_name} पर {modifier} जारी रखें </string><!--Continue {modifier} onto {way_name}-->
 			</dict>
 			<key>sharp left</key>
 			<dict>
 				<key>default</key>
-				<string>Take a sharp left</string>
+				<string>तेज बाएं मुड़ें</string><!--Take a sharp left-->
 				<key>destination</key>
-				<string>Take a sharp left towards {destination}</string>
+				<string>{destination} की ओर ठीक बाईं ओर मुड़ें</string><!--Take a sharp left towards {destination}-->
 				<key>name</key>
-				<string>Take a sharp left onto {way_name}</string>
+				<string>{way_name} की ओर ठीक बाईं ओर मुड़ें</string><!--Take a sharp left onto {way_name}-->
 			</dict>
 			<key>sharp right</key>
 			<dict>
 				<key>default</key>
-				<string>Take a sharp right</string>
+				<string>एक तेज दाएं मुड़ें</string><!--Take a sharp right-->
 				<key>destination</key>
-				<string>Take a sharp right towards {destination}</string>
+				<string>{destination} की ओर ठीक दाएं मुड़ें</string><!--Take a sharp right towards {destination}-->
 				<key>name</key>
-				<string>Take a sharp right onto {way_name}</string>
+				<string>{way_name} पर ठीक दाएं मुड़ें</string><!--Take a sharp right onto {way_name}-->
 			</dict>
 			<key>slight left</key>
 			<dict>
 				<key>default</key>
-				<string>Continue slightly left</string>
+				<string>थोड़ा बाएँ जारी रखें</string><!--Continue slightly left-->
 				<key>destination</key>
-				<string>Continue slightly left towards {destination}</string>
+				<string>{destination} की ओर थोड़ा बाएं चलते रहें</string><!--Continue slightly left towards {destination}-->
 				<key>name</key>
-				<string>Continue slightly left onto {way_name}</string>
+				<string>{way_name} पर थोड़ा बाएं चलते रहें</string><!--Continue slightly left onto {way_name}-->
 			</dict>
 			<key>slight right</key>
 			<dict>
 				<key>default</key>
-				<string>Continue slightly right</string>
+				<string>थोड़ा दायें जारी रखें </string><!--Continue slightly right-->
 				<key>destination</key>
-				<string>Continue slightly right towards {destination}</string>
+				<string>{destination} की ओर थोड़ा आगे बढ़ें</string><!--Continue slightly right towards {destination}-->
 				<key>name</key>
-				<string>Continue slightly right onto {way_name}</string>
+				<string>{way_name} पर थोड़ा दाएं चलते रहें</string><!--Continue slightly right onto {way_name}-->
 			</dict>
 			<key>straight</key>
 			<dict>
